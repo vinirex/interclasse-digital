@@ -2,11 +2,13 @@
 
 ## 👥 Contributors
 
-| Name          | Role      | GitHub              |
-| ------------- | --------- | ------------------- |
-| Your Name     | Developer | github.com/youruser |
-| Contributor 2 | Developer | github.com/user     |
-| Contributor 3 | Developer | github.com/user     |
+| Name          | RM        | 
+| ------------- | --------- | 
+|Diogo Julio    |- RM553837 |
+|Vinicius Silva |- RM553240 |
+|Victor Didoff  |- RM552965 |
+|Matheus Zottis |- RM94119  |
+|Jonata Rafael  |- RM552939 |
 
 ---
 
