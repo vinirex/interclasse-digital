@@ -1,56 +1,150 @@
-# Projeto de Interclasse Digital
+# 🏆 Interclasse Digital
 
-Vinicius Silva - RM553240
-Matheus Zottis - RM94119
-Jonata Rafael - RM552939
-Diogo Julio - RM553837
-Victor Didoff - RM552965
+## 👥 Contributors
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+| Name          | RM        | 
+| ------------- | --------- | 
+|Diogo Julio    |- RM553837 |
+|Vinicius Silva |- RM553240 |
+|Victor Didoff  |- RM552965 |
+|Matheus Zottis |- RM94119  |
+|Jonata Rafael  |- RM552939 |
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Project Overview
 
-   ```bash
-   npm install
-   ```
+**Interclasse Digital** is a mobile application built with **Expo + React Native** designed to organize and display information about a school's **interclass sports tournament**.
 
-2. Start the app
+The app allows students and teachers to easily access:
 
-   ```bash
-   npx expo start
-   ```
+* 🏆 Tournament standings
+* ⚽ Sports modalities
+* 📅 Match schedule
+* 📊 Class rankings
 
-In the output, you'll find options to open the app in a
+The project demonstrates the integration of **AsyncStorage for local data persistence** and **API communication for rankings**.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Technologies Used
 
-## Get a fresh project
+* **React Native**
+* **Expo**
+* **Expo Router**
+* **AsyncStorage**
+* **Axios**
+* **TypeScript**
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
+## 📂 Project Structure
+
+```
+interclasse-digital
+│
+├── app
+│   ├── _layout.tsx
+│   ├── index.tsx
+│   ├── modalidades.tsx
+│   ├── classificacao.tsx
+│   └── calendario.tsx
+│
+├── assets
+├── components
+├── constants
+└── package.json
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## ⚙️ Features
 
-To learn more about developing your project with Expo, look at the following resources:
+### 🏅 Modalidades
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Displays the sports included in the tournament.
 
-## Join the community
+Examples:
 
-Join our community of developers creating universal apps.
+* Futsal
+* Vôlei
+* Basquete
+* E-sports
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+### 🏆 Classificação
+
+Shows the **ranking of classes based on points** during the tournament.
+
+Example:
+
+| Class          | Points |
+| -------------- | ------ |
+| 3º ES Paulista | 9      |
+| 2º ES Lins     | 7      |
+| 1º ADS         | 5      |
+
+---
+
+### 📅 Calendário de Jogos
+
+Displays scheduled matches including:
+
+* Sport
+* Competing classes
+* Time
+* Location
+
+Game information can be **stored locally using AsyncStorage**.
+
+---
+
+## 💾 Local Storage
+
+The application uses **AsyncStorage** to persist match schedules so the data remains available even after the app is restarted.
+
+---
+
+## 🌐 API Integration
+
+The ranking screen demonstrates **API integration** using **Axios** to retrieve standings data.
+
+---
+
+## ▶️ Running the Project
+
+### 1️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 2️⃣ Start the Expo server
+
+```
+npx expo start
+```
+
+### 3️⃣ Run the application
+
+* Press **a** → Android Emulator
+* Press **i** → iOS Simulator
+* Scan QR code → Expo Go app
+
+---
+
+## 📚 Educational Purpose
+
+This project was developed as part of a **mobile development learning activity**, focusing on:
+
+* Mobile UI development
+* Navigation with Expo Router
+* Local storage management
+* API integration
+
+---
+
+## 📄 License
+
+This project is intended for **educational purposes**.
