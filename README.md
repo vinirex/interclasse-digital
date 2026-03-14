@@ -1,4 +1,10 @@
-# Welcome to your Expo app 👋
+# Projeto de Interclasse Digital
+
+Vinicius Silva - RM553240
+Matheus Zottis - RM94119
+Jonata Rafael - RM552939
+Diogo Julio - RM553837
+Victor Didoff - RM552965
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
